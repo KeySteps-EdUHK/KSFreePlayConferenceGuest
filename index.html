@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Play Case Conference — Participants</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .site-title {
+            font-weight: 600;
+            color: #2b3990;
+            font-size: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: #666;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <span class="site-title">KeySteps@JC Free Play Conference</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <h1>Conference Hub</h1>
+            <p class="subtitle">KeySteps@JC (Phase Two)</p>
+            <p class="subtitle">Free Play Case Conference</p>
+            <div class="date-info">
+                <i class="fas fa-calendar-alt"></i>
+                January 4, 2025 (Saturday)
+            </div>
+        </div>
+
+        <div class="dashboard-grid">
+            <div class="card" data-section="overview">
+                <i class="fas fa-info-circle"></i>
+                <h2>Overview</h2>
+                <p>Key objectives and conference info</p>
+            </div>
+            <div class="card" data-section="schedule">
+                <i class="fas fa-calendar-alt"></i>
+                <h2>Schedule</h2>
+                <p>Full programme and session times</p>
+            </div>
+            <div class="card" data-section="activity-details">
+                <i class="fas fa-list-alt"></i>
+                <h2>Activity Details</h2>
+                <p>Instructions for Activity 1 and 2</p>
+            </div>
+            <div class="card" data-section="resources">
+                <i class="fas fa-box-open"></i>
+                <h2>Resources &amp; Downloads</h2>
+                <p>Materials and downloadable files</p>
+            </div>
+            <div class="card surveys-card" data-section="surveys">
+                <i class="fas fa-poll"></i>
+                <h2>Surveys &amp; Classroom</h2>
+                <p>Pre-test, post-test surveys and Google Classroom</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>KeySteps@JC Free Play Case Conference — January 4, 2025</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('click', function() {
+                const routes = {
+                    'overview': 'pages/overview.html',
+                    'schedule': 'pages/schedule.html',
+                    'activity-details': 'pages/activity_details.html',
+                    'resources': 'pages/resources.html',
+                    'surveys': 'pages/surveys.html'
+                };
+                const dest = routes[this.dataset.section];
+                if (dest) window.location.href = dest;
+            });
+        });
+    </script>
+</body>
+</html>
