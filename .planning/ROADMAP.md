@@ -40,12 +40,12 @@ Plans:
   3. Participant can view Activity 1 and Activity 2 instructions and tap to download the Guideline document
   4. Participant can tap to open the pre-test survey and the post-test survey in their browser
   5. Participant can tap to join Google Classroom, with the survey/classroom section prominently visible on the homepage
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 02-01: Build programme page with rundown and PowerPoint download link
-- [ ] 02-02: Build activity detail pages with Guideline download link
-- [ ] 02-03: Add prominent survey and classroom section to homepage with all three links
+- [ ] 02-01-PLAN.md — Build schedule and overview pages with full content and PowerPoint download link (wave 1)
+- [ ] 02-02-PLAN.md — Build activity details page (Activity 1 + 2 tabs) and resources page with Guideline download link (wave 1)
+- [ ] 02-03-PLAN.md — Add prominent surveys section to homepage and create dedicated surveys page with all three links (wave 2)
 
 ## Progress
 
