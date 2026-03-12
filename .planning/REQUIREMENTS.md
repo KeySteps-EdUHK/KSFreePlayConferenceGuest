@@ -13,8 +13,8 @@
 
 ### Programme
 
-- [ ] **PROG-01**: Participant can view the full programme rundown / schedule with times
-- [ ] **PROG-02**: Participant can download or view the Programme PowerPoint (link: https://qr.link/2lBfdx)
+- [x] **PROG-01**: Participant can view the full programme rundown / schedule with times
+- [x] **PROG-02**: Participant can download or view the Programme PowerPoint (link: https://qr.link/2lBfdx)
 
 ### Activity Details
 
@@ -54,8 +54,8 @@
 | NAV-01 | Phase 1 | Complete (01-01) |
 | NAV-02 | Phase 1 | Complete (01-01) |
 | NAV-03 | Phase 1 | Complete (01-01) |
-| PROG-01 | Phase 2 | Pending |
-| PROG-02 | Phase 2 | Pending |
+| PROG-01 | Phase 2 | Complete |
+| PROG-02 | Phase 2 | Complete |
 | ACT-01 | Phase 2 | Pending |
 | ACT-02 | Phase 2 | Pending |
 | ACT-03 | Phase 2 | Pending |

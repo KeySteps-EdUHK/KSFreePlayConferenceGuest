@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: completed
-stopped_at: Completed 01-01-PLAN.md — site foundation shell complete
-last_updated: "2026-03-12T07:04:52.506Z"
-last_activity: 2026-03-12 — Completed 01-01 Site Foundation
+status: in-progress
+stopped_at: Completed 02-01-PLAN.md — schedule and overview pages with full content
+last_updated: "2026-03-12T07:20:00.000Z"
+last_activity: 2026-03-12 — Completed 02-01 Schedule and Overview Content
 progress:
   total_phases: 2
   completed_phases: 1
   total_plans: 4
-  completed_plans: 1
+  completed_plans: 2
   percent: 50
 ---
 
@@ -21,29 +21,30 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-12)
 
 **Core value:** Participants can quickly find schedule, activity details, and survey links during the conference
-**Current focus:** Phase 1 - Site Foundation
+**Current focus:** Phase 2 - Content and Actions
 
 ## Current Position
 
-Phase: 1 of 2 (Site Foundation)
-Plan: 1 of 1 in current phase
-Status: Phase 1 complete
-Last activity: 2026-03-12 — Completed 01-01 Site Foundation
+Phase: 2 of 2 (Content and Actions)
+Plan: 1 of 3 in current phase (02-01 complete)
+Status: Phase 2 in progress
+Last activity: 2026-03-12 — Completed 02-01 Schedule and Overview Content
 
 Progress: [█████░░░░░] 50%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 1
-- Average duration: 15min
-- Total execution time: 15min
+- Total plans completed: 2
+- Average duration: 12min
+- Total execution time: 25min
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 01-site-foundation | 1 | 15min | 15min |
+| 02-content-and-actions | 1 | 10min | 10min |
 
 **Recent Trend:**
 - Last 5 plans: 15min
@@ -64,6 +65,8 @@ Recent decisions affecting current work:
 - Used window.location.href routing via data-section to allow Phase 2 conditional navigation
 - surveys.html deferred to Phase 2 (SURV-01 to SURV-04)
 - Kept .btn, .info-card, .details-grid, .timeline-* in CSS for Phase 2 content pages
+- All content pages use pure HTML with inline <style> blocks — no JS, no fetch, no localStorage
+- PowerPoint download uses qr.link shortener (https://qr.link/2lBfdx) with target=_blank
 
 ### Pending Todos
 
@@ -76,5 +79,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-12
-Stopped at: Completed 01-01-PLAN.md — site foundation shell complete
+Stopped at: Completed 02-01-PLAN.md — schedule and overview pages with full content
 Resume file: None
