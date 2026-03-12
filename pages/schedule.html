@@ -1,32 +1,171 @@
 <!DOCTYPE html>
-<html lang="zh-Hant-HK">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>時間表 — 自由遊戲綜合教學法課程總結分享會</title>
+    <title>Schedule — Free Play Case Conference</title>
     <link rel="stylesheet" href="../styles/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .schedule-table { background:#ffffff; border-radius:12px; box-shadow:0 4px 6px rgba(0,0,0,0.05); padding:20px; margin-top:20px; }
+        table { width:100%; border-collapse:separate; border-spacing:0 12px; }
+        th { text-align:left; padding:0 20px 10px 20px; color:#5f6368; font-weight:600; font-size:0.95em; text-transform:uppercase; letter-spacing:0.5px; border-bottom:2px solid #f1f3f4; }
+        tbody tr { background:#ffffff; transition:all 0.2s ease; }
+        tbody tr:hover { transform:translateY(-2px); box-shadow:0 4px 12px rgba(0,0,0,0.08); border-radius:8px; }
+        tbody td { padding:20px; background:#ffffff; border-top:1px solid #f1f3f4; border-bottom:1px solid #f1f3f4; }
+        tbody td:first-child { border-left:1px solid #f1f3f4; border-radius:8px 0 0 8px; width:160px; color:#f99d33; font-weight:600; font-size:0.95em; white-space:nowrap; }
+        tbody td:last-child { border-right:1px solid #f1f3f4; border-radius:0 8px 8px 0; }
+        .activity-title { font-size:1.1em; font-weight:500; color:#202124; display:flex; align-items:center; gap:12px; }
+        .activity-title i { font-size:1.2em; color:#f99d33; width:24px; text-align:center; }
+        .activity-details { margin-top:12px; padding:12px 16px; background:#f8f9fa; border-radius:6px; border-left:4px solid #f99d33; font-size:0.9em; color:#4d5156; }
+        .activity-step { display:flex; margin-bottom:8px; line-height:1.5; }
+        .activity-step:last-child { margin-bottom:0; }
+        .activity-step strong { color:#f99d33; min-width:90px; display:inline-block; }
+        .activity-plans-divider { margin-top:10px; padding-top:10px; border-top:1px dashed #f99d33; }
+        .activity-plans-label { font-weight:600; color:#5f6368; margin-bottom:6px; font-size:0.85em; text-transform:uppercase; letter-spacing:0.4px; }
+        .activity-title i.fa-coffee { color:#f29900; }
+        .activity-title i.fa-clipboard-check { color:#188038; }
+        .activity-title i.fa-circle { font-size:0.8em; color:#f99d33; }
+        .date-info { text-align:center; color:#5f6368; margin-top:8px; font-size:0.95em; }
+        .date-info i { margin-right:6px; }
+        @media (max-width:768px) {
+            tbody td { display:block; width:100% !important; border:none !important; padding:12px 20px; }
+            tbody td:first-child { padding-bottom:0; color:#5f6368; font-size:0.85em; }
+            tbody tr { display:block; border:1px solid #f1f3f4; border-radius:8px; margin-bottom:12px; }
+            thead { display:none; }
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <div class="nav-wrapper">
-                <a href="../index.html" class="back-button">
-                    <i class="fas fa-arrow-left"></i> 返回主頁
-                </a>
-            </div>
-        </nav>
+        <nav><div class="nav-wrapper">
+            <a href="../index.html" class="back-button"><i class="fas fa-arrow-left"></i> Home</a>
+        </div></nav>
     </header>
-    <main>
+    <main class="content-wrapper">
         <div class="page-header">
-            <h1><i class="fas fa-calendar-alt"></i> 時間表</h1>
-            <p class="subtitle">完整流程及時間安排</p>
+            <i class="far fa-calendar-alt" style="font-size:2.5rem; color:#f99d33;"></i>
+            <h1>Schedule</h1>
+            <p class="subtitle">KeySteps@JC (Phase Two)</p>
+            <p class="subtitle">Free Play Case Conference</p>
+            <div class="date-info"><i class="far fa-clock"></i> March 14, 2026 (Saturday)</div>
         </div>
-        <div class="content-wrapper">
-            <p>內容即將更新。</p>
+
+        <div style="text-align:center; margin: 1.5rem auto; max-width:1200px; padding: 0 1rem;">
+            <a href="https://qr.link/2lBfdx" target="_blank" rel="noopener noreferrer"
+               style="display:inline-flex; align-items:center; gap:10px; background:#2b3990; color:white;
+                      padding:14px 28px; border-radius:8px; text-decoration:none; font-weight:600;
+                      font-size:1rem; transition:background 0.2s;">
+                <i class="fas fa-file-powerpoint"></i> Download Programme PowerPoint
+            </a>
+        </div>
+
+        <div class="schedule-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Activity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>8:30-9:00am</td>
+                        <td>
+                            <div class="activity-title">
+                                <i class="fas fa-clipboard-check"></i> Registration &amp; Seating
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9:00-9:30am</td>
+                        <td>
+                            <div class="activity-title">
+                                <i class="fas fa-circle"></i> Opening Remarks &amp; Thematic Framing
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9:30-10:00am</td>
+                        <td>
+                            <div class="activity-title">
+                                <i class="fas fa-circle"></i> School Stories: Session 1
+                            </div>
+                            <div class="activity-details">
+                                <div class="activity-step"><strong>09:30-09:40</strong> S076新界婦孺福利會元朗幼兒學校</div>
+                                <div class="activity-step"><strong>09:40-09:50</strong> S086港九街坊婦女會孫方中幼稚園</div>
+                                <div class="activity-step"><strong>09:50-10:00</strong> S039竹園區神召會南昌康樂幼兒學校</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10:00-10:40am</td>
+                        <td>
+                            <div class="activity-title">
+                                <i class="fas fa-circle"></i> ACTIVITY 1: Poster Insights Session
+                            </div>
+                            <div class="activity-details">
+                                <div class="activity-step"><strong>10 mins</strong> Poster Reading</div>
+                                <div class="activity-step"><strong>10 mins</strong> Group Discussion on Posters</div>
+                                <div class="activity-step"><strong>20 mins</strong> Interactive Q&amp;A</div>
+                                <div class="activity-plans-divider">
+                                    <div class="activity-plans-label">Poster Reading Setup (TBC)</div>
+                                    <div class="activity-step"><strong>Plan A</strong> Free walking around</div>
+                                    <div class="activity-step"><strong>Plan B</strong> Teachers assigned to right/left zones</div>
+                                    <div class="activity-step"><strong>Plan C</strong> Teachers assigned to five different zones by districts</div>
+                                    <div class="activity-step"><strong>Plan D</strong> Teachers offered 4–5 hard printed posters</div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10:40-11:00am</td>
+                        <td>
+                            <div class="activity-title">
+                                <i class="fas fa-coffee"></i> Break + Poster time
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>11:00-11:30am</td>
+                        <td>
+                            <div class="activity-title">
+                                <i class="fas fa-circle"></i> School Stories: Session 2
+                            </div>
+                            <div class="activity-details">
+                                <div class="activity-step"><strong>11:00-11:10</strong> S017仁濟醫院山景幼稚園/幼兒中心</div>
+                                <div class="activity-step"><strong>11:10-11:20</strong> S096新界婦孺福利會博康幼兒學校</div>
+                                <div class="activity-step"><strong>11:20-11:30</strong> S057中華基督教會望覺堂賢貞幼稚園</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>11:30-12:10pm</td>
+                        <td>
+                            <div class="activity-title">
+                                <i class="fas fa-circle"></i> ACTIVITY 2: Community Resource Mapping
+                            </div>
+                            <div class="activity-details">
+                                <div class="activity-step"><strong>10 mins</strong> Community Brainstorming &amp; Mapping</div>
+                                <div class="activity-step"><strong>10 mins</strong> Analysis &amp; Annotation</div>
+                                <div class="activity-step"><strong>3 mins</strong> Synthesis &amp; Sharing Preparation</div>
+                                <div class="activity-step"><strong>15 mins</strong> Whole-Group Share-Back</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>12:10-12:40pm</td>
+                        <td>
+                            <div class="activity-title">
+                                <i class="fas fa-circle"></i> Closing Remarks &amp; Reflection
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </main>
-    <footer><p>賽馬會童亮計劃自由遊戲綜合教學法課程總結分享會 — 2026年3月14日</p></footer>
+    <footer><p>KeySteps@JC Free Play Case Conference — January 4, 2025</p></footer>
 </body>
 </html>
