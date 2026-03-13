@@ -275,11 +275,6 @@ nav {
         display: none;
     }
 
-    /* surveys card spans full width on mobile so it doesn't look squished */
-    .surveys-card {
-        grid-column: 1 / -1;
-    }
-
     .content-wrapper {
         padding: 1rem;
     }
